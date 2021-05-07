@@ -1,0 +1,81 @@
+ @import url ('https://fonts.googleais.com/css?family=open+sans:250,300,400,500,600,700,800,&dispay=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'open sans',sans-serif;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+.bodi
+{
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    background-color: #f0f0f0;
+}
+.taps
+{
+
+    display: flex;
+
+}
+.taps > div
+{
+    width: 50px;
+    height: 50px;
+    flex: 1;
+    border-radius: 25%;
+    margin: 10px 5px 10px 5px;
+}
+.tap1
+{
+    text-align:center;
+    color: #5a84a2;
+    font-weight: 500;
+    background: #f0f0f0;
+    border-radius: 10%;
+    border: none;
+    box-shadow:  10px 10px 17px #d9dad4,
+               -10px -10px 17px #ffffff;
+
+}
+#i
+{
+    background-color: #f0f0f0;
+}
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    color: #5a84a2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pic
+{
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 25px;
+    background: #f0f0f0;
+    border-radius: 10%;
+    border: none;
+    box-shadow:  10px 10px 17px #d9dad4,
+               -10px -10px 17px #ffffff;
+
+}
+.tap1:hover
+{
+    background-color: #000000;
+}
+h1:hover
+{
+    color: #fff;
+}
